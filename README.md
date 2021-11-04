@@ -1,7 +1,7 @@
 # DeDupeUtility
 code challenge from Marketo/Adobe interview.
 
-To run the code use these 2 lines (you will need maven installed):
+To run the code use these 2 lines (you will need [maven](https://maven.apache.org/install.html) installed):
 > mvn install
 > 
 > mvn compile exec:java -Dexec.mainClass="com.adobe.DeDupeUtility" -Dexec.args="code_challenge_leads.json output.json change.log"
