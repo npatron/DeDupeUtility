@@ -3,6 +3,7 @@ code challenge from Marketo/Adobe interview.
 
 To run the code use these 2 lines (you will need maven installed):
 > mvn install
+> 
 > mvn compile exec:java -Dexec.mainClass="com.adobe.DeDupeUtility" -Dexec.args="code_challenge_leads.json output.json change.log"
 
 if you want to use a different input file, change 1st parameter in  `-Dexec.args`
