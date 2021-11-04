@@ -29,6 +29,7 @@ Assumptions:
 - Date format (in "entryDate") is always in the format in example file.
  - "yyyy-MM-dd'T'kk:mm:ss+SS:00" in SimpleDateFormat pattern
  - If DateFormat was changed, `isFirstWinner(..)` method would need to be edited
+ - duplicate `email` & `_id's` that are removed are not maintained for later comparison
 
 Description of Challenge:
 > Take a variable number of identically structured json records and de-duplicate the set.
